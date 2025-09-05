@@ -15,7 +15,6 @@ import { TasksComponent } from "./tasks/tasks";
 })
 export class App {
   users = DUMMY_USERS;
-
   selectedUserId?: string;
   protected readonly title = signal('first-angular-app');
 

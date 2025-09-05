@@ -4,6 +4,10 @@
   max-height: 60vh;
   overflow: auto;
   background-color: #3a2c54;
+
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.2) transparent;
 }
 
 header {
